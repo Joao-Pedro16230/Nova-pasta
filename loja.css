@@ -87,7 +87,7 @@ forms button:hover {
 }
 
 .moto button {
-    background: #ff6600;
+    background: orangered;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -100,7 +100,7 @@ forms button:hover {
     background: #e65c00;
 }
 a {
-    color: #ff6600;
+    color: orangered;
     text-decoration: none;
 }
 
