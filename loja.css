@@ -29,8 +29,10 @@ forms {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    border-top: 2px solid #ff6600;
+
 }
+
+
 
 forms input,
 forms button {
@@ -140,4 +142,15 @@ footer {
 footer a {
     margin: 20px;
     text-align: center;
+}
+.icones{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding:0px;
+
+}
+.icones img{
+    height: 30px;
 }
