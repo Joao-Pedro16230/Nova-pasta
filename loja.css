@@ -2,22 +2,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black; 
+    background-color: black;
     color: white;
     line-height: 1.6;
-    
+
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: orange;
     text-align: center;
     margin: 20px 0;
-    
+
 }
+
 forms {
     display: block;
     text-align: center;
     margin: 20px 0;
-     background: #000;
+    background: #000;
     color: #bbb;
     text-align: center;
     padding: 20px;
@@ -25,7 +32,8 @@ forms {
     border-top: 2px solid #ff6600;
 }
 
-forms input, forms button {
+forms input,
+forms button {
     padding: 10px;
     margin: 5px;
     border-radius: 6px;
@@ -63,13 +71,13 @@ forms button:hover {
     border-radius: 12px;
     text-align: center;
     padding: 5px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .moto:hover {
     transform: translateY(-8px);
-    box-shadow: 0px 6px 20px rgba(0,0,0,0.8);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.8);
 }
 
 .moto img {
@@ -99,6 +107,7 @@ forms button:hover {
 .moto button:hover {
     background: #e65c00;
 }
+
 a {
     color: orangered;
     text-decoration: none;
@@ -107,6 +116,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 footer {
     background: #000;
     color: #bbb;
@@ -115,16 +125,19 @@ footer {
     margin-top: 40px;
     border-top: 2px solid #ff6600;
 }
-footer img{
+
+footer img {
     width: 30px;
     height: 30px;
 
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
 }
-footer a{
+
+footer a {
     margin: 20px;
-    text-align: center;}
-  
+    text-align: center;
+}
