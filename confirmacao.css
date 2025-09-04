@@ -1,6 +1,8 @@
 body {
   font-family: "New Rocker";
   background-image: linear-gradient(45deg, black, orange);
+  
+
   color: white;
 }
 
@@ -23,6 +25,7 @@ h1 {
   text-align: center;
   padding: 80px;
   border-radius: 40px;
+  font-family: "New Rocker";
 
 }
 
@@ -41,4 +44,7 @@ header.logo {
 
 button:hover {
   background-color: orange;
+}
+.divfot{
+  margin-top: 100vh;
 }
